@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="numValidation.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+<body>
+    <!-- <div id="outerContainer"> -->
+        <div id="container">
+            <h1>Network Identifier</h1>
+            <p id = 'firstText'>Identify the mobile carrier of any phone number in Nigeria</p>
+            <input type="text" id="number"> 
+            <input type="submit" id="clear" value="X">
+            <br>
+            <input type="submit" id="btn">
+        </div>
+        <div id="boxes">
+            <div class="box" id="mtn">
+                <img src="mtn.png" alt="mtn logo">
+            </div>
+            <div class="box" id="airtel">
+                <img src="airtel.png" alt="airtel logo">
+            </div>
+            <div class="box" id="glo">
+                <img src="glo.png" alt="glo logo">
+            </div>
+            <div class="box" id="nineMobile">
+                <img src="9mobile.png" alt="9mobile logo">
+            </div>
+        </div>
+    <!-- </div> -->
+    <div id="details">
+        <p class='text'>
+            <b>NI</b> or <i>Network Identifier</i> <br>
+            This web application identifies the network of the inputed number, although this version only recognizes the major Network Service Providers in Nigeria, future versions will include most major cities in the world.
+        </p>
+        <p class="mtn">
+            <b>MTN</b> stands for : <i>Mobile Telepphone Network</i> <br>
+            MTN Nigeria was founded in 2001, The first call on its network was made on May 16, 2001, this is the first and oldest mobile network in Nigeria. MTN Nigeria is a member of the MTN group , with over 66 million subscribers of which 38 million are internet subscribers. They are seen as the GSM market Leader. 
+            <br><br>
+            <span class="deets">More details on MTN <a href="www.mtnonline.com">here</a></span>
+        </p>
+        <p class="airtel">
+            <b>Bharti Airtel Limted</b>(<i>Airtel</i>) <br>
+            Airtel is a leading global telecommunications company with operations in 20 countires across Asia and Africa with headquarters in New Delhi, India, the company ranks among the top 5 service providers globally, in terms of subscribers.
+            <br><br>
+            <span class="deets">More details on Airtel <a href="www.gloworld.com">here</a></span>
+        </p>
+        <p class="glo">
+            <b>GLO</b> or <i>Globacom Limited</i> <br>
+            GLO is a Nigerian multinational telecommunications company headquartered in Lagos. GLO is a privately owned telecommunications carrier that started operations on 29 august 2003. It currently operates in four countries in West Africa, namely Nigeria, the Republic of Benin, Ghana and Cote d'ivoire. 
+            <br><br>
+            <span class="deets">More details on GLO <a href="www.africa.airtel/nigeria/.com">here</a></span>
+        </p>
+        <p class="nineMobile">
+            <b>9mobile</b> formally <i>Etisalat</i> <br>
+            9mobile is the yougest player in the Nigeria GSM market. It acquired a Unified Access Service License from the Nigerian Communications Commission in 2007. 9mobile(etisalat) fully launched in Nigeria in 2008 with "0809ja" to affirm the "Nigerianess of its origin, they later switched from Etisalat to 9mobile
+            <br><br>
+            <span class="deets">More details on 9mobile <a href="www.9mobile.com.ng">here</a></span>
+        </p>
+    </div>
+        <div id = 'footer'>
+            <p class="deets">Brought to you by Circle-275</a></p>
+        </div>
+    <script src="numValidation.js"></script>
+</body>
+</html>
