@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: radial-gradient(200% 200% at 0% 0%, #13d, #dda);
+    height: 100vh;
+}
+/* #outerContainer{
+    background: #dddc;
+    padding: 0.5rem;
+    border-radius: 2rem;
+} */
+#container{
+    margin: 5%;
+    padding: 5%;
+    background-color: #ddd5;
+    border-radius: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;    
+}
+#firstText{
+    background: #fffa;
+    border: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.message{
+    background: #ddda;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+#number{
+    background-color: #fffa;
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    padding: 0.2rem 0;
+    border: none;
+    border-bottom: 0.2rem solid #222;
+    border-radius: 0.5rem;
+}
+#number:active{
+    background-color: #ddda;
+    padding: 0.2rem;
+    border: none;
+    border-bottom: 0.2rem solid #222;
+    border-radius: 0.5rem;
+}
+#clear{
+    background-color: #fffa;
+    padding: 0.4rem;
+    font-weight: bold;
+    font-size: large;
+    border: none;
+    border-bottom: 0.2rem solid #222;
+    border-radius: 0.5rem;
+    color: red;
+}
+#clear:active{
+    background-color: #d11a;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 0.2rem solid #222;
+    border-radius: 0.5rem;
+}
+#btn{
+    width: 5rem;
+    background: #fffa;
+    border: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+#btn:active{
+    width: 5rem;
+    background: #aaaa;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+#boxes{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    justify-content: center;
+    background-color: #ddd5;
+    border-radius: 20rem;
+}
+/* .box{
+    background-color: #ddd5;
+    margin: 0 0.2rem;
+    border-radius: 20%;
+} */
+#boxes img{
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    margin: 10%;
+    padding: 1rem;
+}
+#boxes img:hover{
+    align-self: center;
+    width: 75px;
+    height: 75px;
+    padding: 0;
+}
+.inactive{
+    opacity: 0.2;
+}
+:active{
+    opacity: 1;
+}
+.box h1{
+    font-size: large;
+    font-weight: bolder;
+}
+.text{
+    font-weight: bold;
+    font-size: large;
+}
+.mtn{
+    background: #da1;
+    color: #222;
+    border: 0.2rem solid #fff;
+    font-weight: bolder;
+    padding: 1rem;
+    border-radius: 1.1rem;
+    display: none;
+}
+
+.airtel{
+    background: #f21;
+    color: #fff;
+    border: 0.2rem solid #fff;
+    font-weight: bolder;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: none;
+}
+.glo{
+    background: #1a1;
+    color: #212;
+    border: 0.2rem solid #fff;
+    font-weight: bolder;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: none;
+}
+.nineMobile{
+    background: #af3;
+    color: #332;
+    border: 0.2rem solid #fff;
+    font-weight: bolder;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: none;
+}
+#details{
+    background-color: #ddd5;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+.deets{
+    font-size: small;
+}
+#footer{
+    position: sticky;
+    bottom: 0px;
+    background: #13d;
+    color: #fff;
+    padding: 0.5rem;
+    text-align: center;
+}
